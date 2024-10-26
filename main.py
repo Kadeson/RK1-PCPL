@@ -81,6 +81,5 @@ def main():
                           if link.store_id == store.id and link.book_id == book.id]
         print(f"{store.name}: {', '.join(books_in_store)}.")
 
-
 if __name__ == '__main__':
     main()
